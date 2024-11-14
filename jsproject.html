@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20240604/ourmid/pngtree-a-green-shopping-cart-on-white-background-png-image_12603206.png">
+    <title>Pickbazar | Books </title>
+    <link rel="stylesheet" href="./jsproject.css">
+</head>
+<body>
+    <div class="navbar" id="labnav">
+        <div class="left">
+            <ul type="none">
+                <li><img src="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F2295%2FLogo-new.png&w=1920&q=75" alt="image" width="130px" height="25px"></li> 
+                <li id="green" class="summa">Shops</li>
+                <li id="green" class="summa">Offers</li> 
+                <li id="green" class="summa">Contact</li>
+                <li class="drop" id="green" class="-drop" class="summa">Pages <b>⌵</b>
+                    <ul class="down" type="none">
+                        <li>Flash sale</li>
+                        <li>Manufacturers/publisher</li>
+                        <li>Authors</li>
+                        <li>FAQ</li>
+                        <li>Terms & Conditions</li>
+                        <li>Customer Refund Policy</li>
+                        <li>Vendor Refond Policy</li>     
+                    </ul>
+                </li> 
+            </ul>
+        </div>
+    
+        <div class="right">
+        <ul type="none"> 
+            <ul type="none">
+                <li class="menu" id="green">
+                    <button class="menubtn" onclick="toggleDropdown()">Books <b>⌵</b></button>
+                    <ul id="list" class="list" type="none">
+                        <li>Grocery</li>
+                        <li>Bakery</li>
+                        <li>Makeup</li>
+                        <li>Bags</li>
+                        <li>Clothing</li>
+                        <li>Furniture</li>
+                        <li>Daily needs</li>
+                        <li>Books</li>
+                        <li>Gadget</li>
+                        <li>Medicine</li>
+                    </ul>
+                </li>
+              </ul>
+              
+            <li><img src="./images/search.png"/></li>
+            <li><img src="images/bag.png"/></li>
+            <li><button class="btn2">join</button></li>
+            <li><button class="btn2">Become a seller</button></li>
+        </ul>
+        </div>
+    </div>
+
+<center><div id="front"></center>
+</div>
+
+    <h2>Best Selling Products</h2>
+    <div id="new-container1" class="row1"></div>
+
+    <h2>Popular Products</h2>
+    <div id="new-container2" class="row"></div>
+    <div id="new-container3" class="row"></div>
+
+    <h2>which book you like to see?</h2>
+    <div id="movie" class="movie"></div>
+
+    <h2>New Arrival</h2>
+    <div id="new-container4" class="row"></div>
+    <div id="new-container5" class="row"></div>
+    <div id="new-container6" class="row"></div>
+    <div id="new-container7" class="row"></div>
+    <div id="new-container8" class="row"></div>
+    <div id="new-container9" class="row"></div>
+    <div id="new-container10" class="row"></div>
+    <div id="new-container11" class="row"></div>
+    <div id="new-container12" class="row"></div>
+    <div id="new-container13" class="row"></div>
+
+
+    <div id="load">
+        <button id="loadbutton" onclick="clickShow()">Load More</button>
+    </div>
+
+    
+<div class="div">
+    <div class="div-content">
+        <h1>The PickBazar App</h1>
+        <p>Make your online shop easier with our <b> mobile app </b></p>
+        <div class="applink">
+            <a href="#"><img src="https://pickbazar-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fapp-store-btn.88c719fc.png&w=384&q=75" alt="App Store"></a>
+            <a href="#"><img src="https://pickbazar-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fplay-store-btn.35cb9c66.png&w=384&q=75" alt="Google Play"></a>
+        </div>
+    </div>
+    <div class="div-image">
+        <img src="https://pickbazar-react.vercel.app/_next/image?url=%2Fmockup-img.png&w=640&q=75">
+    </div>
+</div>
+
+<div id="footer">
+
+<div id="foot">
+<ul>
+    <li><img src="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F2295%2FLogo-new.png&w=1920&q=75" alt="" width="150px" height="30px"></li>
+    <li>NY State Thruway, New York, USA</li>
+    <li>demo@demo.com</li>
+    <li>+129290122122</li>
+    <li>
+    <img src="./images/face.png" class="icons" alt="" width="30px"
+    height="30px">
+    <img src="./images/instagram.png" class="icons" alt="" width="30px"
+    height="30px" >
+    <img src="./images/twiiter.png" class="icons" alt="" width="30px" height="30px" >
+    </li>
+</ul>
+</div>
+
+<div id="foot1">
+<ul>
+    <li><h4>Explore</h3></li>
+    <li>Shops</li>
+    <li>Authors</li>
+    <li>Flash Deals</li>
+    <li>Coupon</li>
+</ul>
+</div>
+
+<div id="foot">
+<ul>
+    <li><h4>Customer Service</h3></li>
+    <li>FAQ & Helps</li>
+    <li>Vendor Refund Policies</li>
+    <li>Customer Refund Policies</li>
+</ul>
+</div>
+
+<div id="foot">
+<ul>
+    <li><h4>Our information</h3></li>
+    <li>Manufacturers</li>
+    <li>Privacy policies</li>
+    <li>Terms & conditions</li>
+    <li>Contact Us</li>
+</ul>
+</div>
+
+
+<div id="foot">
+<ul>
+    <li><h3>Subscribe Now</h3></li>
+    <li>Subscribe your email for newsletter and 
+        featured news based on your interest</li>
+    <li>
+        <form>
+            <input type="text" name="" placeholder="write your email here" id="" style="width: 200px; height: 40px;">
+        </form>
+    </li>
+</ul>
+</div>
+</div>
+
+    <script src="./jsproject.js"></script>
+</body>
+</html>

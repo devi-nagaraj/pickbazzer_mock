@@ -1,0 +1,396 @@
+  
+        body {
+            font-family: Arial,sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .left ul{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            gap: 30px;
+        }
+        .right{
+            padding-right: 30px;
+        }
+        .right ul{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            justify-content: space-evenly;
+        }
+        .navbar:hover{
+            cursor: pointer;
+        }
+        .navbar{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            align-items: center;
+            height:12vh;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    
+        }
+        
+       li .down
+        {
+            display: none;
+        }
+        .drop {
+        position: relative;
+    }
+    #green:hover{
+        color: #06b806;
+    }
+    .down {
+        display: none; 
+        position: absolute; 
+        top: 17px; 
+        left: 0;
+        border: 0.5px solid rgb(218, 215, 215);
+        background-color: white; 
+        padding: 10px;
+        width: 200px;
+        border-radius: 7px;
+        line-height: 20px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    .drop:hover .down {
+        display: block; 
+        color: black;
+    }
+    
+    .down li {
+        padding: 8px 16px;
+    }
+    
+    .down li:hover {
+        transform: translate(5px) ;
+        color: #06b806;
+    }
+    .btn1{
+        padding: 10px;
+        border-radius: 10px;
+        background-color:rgb(228, 225, 225);
+    }
+    .btn2{
+        background-color: rgb(11, 167, 133);
+        padding: 9px 20px;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        font-size: 12px;
+        font-weight: 600
+    }
+    
+    ul .list {
+        display: none; 
+        position: absolute; 
+        left: 60%;
+        top: 90%;
+        background-color: white; 
+        padding:15px 30px;
+        width: 150px;
+        border: 0.5px solid rgb(218, 215, 215);
+        border-radius: 7px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .menu li:hover {
+        transform: translate(5px) ;
+        color: #06b806;
+    }
+    
+    .list.show {
+        display: block;
+        color: black;
+    }
+    
+    .menubtn {
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: rgb(248, 244, 244);
+        color:black;
+        border-radius: 5px;
+    }
+    
+        #front{
+            margin-top: 8%;
+        }
+        .btn{
+            padding: 2px,20px;
+          }
+        .product-container1 {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .product {
+            width: 20%;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+        .row{
+            display: flex;
+            justify-content: space-around;
+        }
+        .row1{
+            display: flex;
+            justify-content: first baseline;
+        }
+        .new {
+            width: 15%;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+        .new img {
+            max-width: 75%;
+            height: auto;
+        }
+        .new-title {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .new-title:hover {
+           cursor: pointer;
+           color: orange;
+        }
+        .new-author{
+            color: gray;
+        }
+        .new-price {
+            color: orange;
+            font-weight: bold;
+        }
+        .new-old-price {
+            text-decoration: line-through;
+            color: grey;
+        }
+        .new-discount {
+            color: green;
+        }
+
+        .movie{
+            display: flex;
+        }
+
+        .movie img{
+            max-width: 100%;
+        }
+        #load{
+            display: flex;
+            justify-content: center;
+        }
+        #loadbutton:active{
+            padding: 15px 43px;
+        }
+        #loadbutton{
+            background-color: rgb(4, 143, 108);
+            border: none;
+            padding: 15px 30px;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: white;
+            border-radius: 8px;
+        }.div { 
+            height: 70vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1px 100px;
+            background-image: url(https://pickbazar-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpattern.65db14c3.png&w=1200&q=75) ;
+            background-color: rgb(199, 196, 196,0.5);
+            border-radius: 13px;
+            max-width: 80%;
+            margin: 50px auto;
+        }
+
+        .div-content {
+            max-width: 50%;
+            margin-top: 0;
+        }
+
+        .div-content h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .div-content p {
+            font-size: 34px;
+            margin-bottom: 20px;
+        }
+
+        .applink {
+            display: flex;
+            gap: 10px;
+        }
+
+        .applink img {
+            width: 150px;
+            height: auto;
+        }
+
+        .div-image img {
+            position: relative;
+            top:50px;
+            z-index: -1;
+            width: 350px;
+            height: 55vh;
+        }
+        #footer{
+            display: flex;
+            justify-content: space-between;
+            gap: 0;
+        }
+        #footer ul{
+            color:grey;
+            list-style: none;
+            line-height: 30px;
+           }
+        #footer ul h3{
+            color: black;
+        }
+        #footer ul h4{
+            color: black;
+        }
+        #foot{
+            width: 280px;
+            padding: 10px;
+        }
+        #foot1{
+            width: 150px;
+            padding: 10px;
+        }
+        .footimg{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .medianav{
+            display: none;
+        }
+        
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #cac9c9;
+  }
+  
+  #navbar.primary-navbar {
+    background-color:white;
+  }
+  
+  #navbar.secondary-navbar {
+    background-color: white;
+  }
+  .btn-seller {
+    padding: 10px 15px;
+    background-color: #05a892;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .filter-button {
+    background-color: #efeff0b2;
+    color: black;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: grey;
+    font-size: 15px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .menu li:hover {
+          transform: translate(5px) ;
+          color: #06b806;
+      }
+      .list{
+          display: none;
+      }
+      
+      .list.show {
+          display: block;
+          color: black;
+      }
+      ul .list {
+          display: none; 
+          position: absolute; 
+          left: 83%;
+          background-color: white; 
+          padding:15px 30px;
+          width: 150px;
+          border: 0.5px solid rgb(218, 215, 215);
+          border-radius: 7px;
+          line-height: 30px;
+          font-size: 14px;
+      }
+      .menubtn {
+          cursor: pointer;
+          padding: 10px 20px;
+          background-color: rgb(248, 244, 244);
+          color:black;
+          border-radius: 5px;
+      }
+  
+
+         @media screen and (max-width: 977px) {
+           
+            #footer{
+                flex-wrap: wrap;
+            }
+            .new {
+                width: 50%;
+                text-align: center;
+                margin: 10px;
+                padding: 10px;
+            }
+            .new img {
+                max-width: 75%;
+                height: auto;
+            }
+            .new-title {
+                font-size: 16px;
+                margin: 10px 0;
+            }
+            .row{
+                flex-wrap: wrap;
+                display: block;
+            }
+            .movie{
+                flex-wrap: wrap;
+                display: block;
+            }
+            .row1{
+                flex-wrap: wrap;
+                display: block;
+            }
+            .div-image{
+                display: none;
+            }
+        }
+        @media screen and (max-width: 977px) {
+        #front{
+            margin-top: 100px;
+        }
+    }
+        @media screen and (max-width: 768px) {
+            .div {
+                flex-direction: column;
+                text-align: center;
+            }
+
+        }
